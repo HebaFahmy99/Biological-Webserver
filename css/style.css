@@ -1,0 +1,208 @@
+*{ 
+    margin: 0; 
+    box-sizing: border-box;
+} 
+::selection {
+    color: white;
+    background: orange;
+  }
+#homeSection{ 
+    height: 100vh;  
+    background-image: url(../images/slider_ophthal.png); 
+    background-size: cover; 
+    background-position: center center;
+} 
+nav{ 
+    background-color:  rgba(0, 0, 0, 0.349); 
+    position: fixed; 
+    top: 0; 
+    left: 0; 
+    right: 0;  
+    display: flex; 
+    justify-content: space-between; 
+    padding: 15px 25px; 
+    z-index: 999;
+}  
+.brandName{ 
+    font-size: 30px; 
+    color: white;
+}
+nav ul{ 
+    display: flex; 
+    list-style: none; 
+} 
+nav ul li{ 
+    margin-right:14px ; 
+    font-size: 18px; 
+    color: white; 
+    font-weight: 300;
+}  
+nav ul a{ 
+    text-decoration:none ; 
+    color: white; 
+    font-weight: 300;
+}
+nav ul a:hover{ 
+    color: orange; 
+    font-weight: 800;
+}   
+.cover{ 
+    width: 100%; 
+    height: 100%;  
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.39); 
+} 
+.cover-content{ 
+    color: white; 
+    font-weight: 800; 
+    /* background-color: aquamarine;  */
+    position: relative; 
+    left: 10%; 
+    top: 50%; 
+    width: 50%;
+} 
+.cover-content h1{ 
+    font-size: 46px;
+} 
+.cover-content h4{ 
+    font-size: 29px; 
+    margin-top: 0.9375rem;
+} 
+.cover-content button{ 
+    border: none; 
+    background-color: white; 
+    color: black;  
+    font-size: 20px;
+    padding: 17px 15px; 
+    margin-top: 20px; 
+    border-top-left-radius: 10px; 
+    border-top-right-radius: 10px; 
+    border-bottom-left-radius: 10px; 
+    border-bottom-right-radius: 10px; 
+} 
+.cover-content  button a{ 
+    text-decoration: none; 
+    color: black;  
+} 
+.cover-content  button:hover  { 
+    border: 1px solid orange; 
+    background-color: orange; 
+    /* color: orange; */
+} 
+ /* Common Styles */
+.heading{ 
+    text-align: center;
+} 
+.heading h2{ 
+    font-size: 50px;
+
+}
+.lineHeading{  
+    margin: auto;
+    width: 30%; 
+    height: 3px; 
+    background-color:orange; 
+}  
+
+
+/* Symptoms Section */
+
+#Symptoms{  
+    width: 100%;  
+    padding-top: 50px;
+    padding-bottom: 20px;
+    background-color: #f5f5f5;
+}   
+.inner-wrap{
+    width: 80%; 
+    margin: auto;
+} 
+/* #Symptoms h2, #Causes h2 ,#Prevention h2 { 
+}   */
+.sysmptoms-data,.causes-data,.prevention-data, .medical-data{ 
+    display: flex; 
+    margin: 50px 0; 
+}  
+
+.Symptoms-image, .causes-image { 
+    width: 30%; 
+    margin: auto;
+} 
+.Symptoms-image img , .causes-image img, .prevention-image img{
+     width: 100%; 
+}   
+.symtpoms-content h4 , .causes-content h4 , .prevention-content h4 , .medicaseek-content h4{ 
+    font-size: 30px;
+} 
+.symtpoms-content ul, .causes-content ul , .prevention-content ul , .medicaseek-content ul{ 
+    list-style-type:circle; 
+
+}
+.symtpoms-content ul li , .causes-content ul li ,.prevention-content  ul li ,.medicaseek-content ul li{ 
+    padding:6px 0; 
+    font-size: 20px;
+} 
+
+/* Causes section */ 
+#Causes{ 
+    background-color: white;  
+    width: 100%;
+    padding-top: 50px;
+} 
+
+/* .causes-image{
+     width: 40%;
+}  */
+.causes-content { 
+    width: 60%;
+} 
+
+/* Prevention Section */ 
+#Prevention{ 
+    background-color: #f5f5f5;
+    width: 100%; 
+    padding: 40px 0px;
+}  
+.prevention-content{  
+    width: 80%;  
+    padding-left: 50px;
+    /* background-color: burlywood; */
+}
+.prevention-image{  
+    display: flex; 
+    align-items: center;
+    width: 40%;
+} 
+
+/* Medical Seek section */
+#medicalSeek{ 
+    padding: 40px 0px 30px 0px;  
+
+} 
+.medicaseek-image img{ 
+    width: 100%; 
+} 
+.medicaseek-image{ 
+    display: flex; 
+    justify-content: center; 
+
+}  
+.medical-data{ 
+    /* margin-bottom: 0px;  */
+    padding-bottom: 0px;     
+} 
+.medicaseek-content{ 
+    margin-left: 30px; 
+}
+footer{ 
+    background-color: #747576; 
+    padding: 50px 0px; 
+    text-align: center;
+} 
+footer p{ 
+color: white; 
+font-size: 20px;
+} 
+footer span{ 
+    color:orange;
+}

@@ -1,0 +1,147 @@
+* {
+    margin    : 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #5C9BE6;
+}
+
+.form-content {
+    display         : flex;
+    flex-direction  : column;
+    justify-content : center;
+    align-items     : center;
+    width           : 70%;
+    margin          : 50px auto;
+    background-color: white;
+    box-shadow      : 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.formHeader {
+    display         : flex;
+    background-color: #5C9BE6; 
+    width: 100%;
+}
+
+.formHeader img {
+    width: 40%; 
+    height: 50%;
+}
+
+.headerContent {
+    display        : flex;
+    flex-direction : column;
+    justify-content: center;
+    color          : white;
+    padding        : 0 50px;
+}
+
+h2 {
+    font-size  : 40px;
+    font-weight: 800;
+}
+
+p {
+    font-size: 25px;
+} 
+::placeholder {
+    color:#5C9BE6; 
+    font-weight: 600;
+   
+  }
+
+.form-body {
+    width     : 90%;
+    margin-top: 30px; 
+    padding-bottom: 20px;  
+}
+ 
+.opeations{ 
+    padding-top: 10px;
+}
+.SelectOperation,.sequence{ 
+    display: flex; 
+    justify-content: center; 
+}
+
+.SelectOperation input ,.sequence input{ 
+    width: 90%;  
+    padding: 5px; 
+    margin-bottom: 8px;
+} 
+
+.fieldsetBtns{ 
+    width: 10%;   
+    margin: auto;
+}
+
+.error{  
+    margin: auto;
+    padding: 10px 0px; 
+    text-align: center;      
+    background-color: #FF1E56;
+}
+
+
+.fieldsetBtns {
+    width        : 100%;
+    margin-top   : 10px;
+    margin-bottom: 4px;
+    display: flex; 
+    justify-content: center;
+}
+
+.fieldsetBtns input {
+    background-color: #5C9BE6;
+    border          : none;
+    color           : white;
+    padding         : 10px 20px;
+    text-align      : center;
+    text-decoration : none;
+    display         : inline-block;
+    font-size       : 16px;
+    margin          : 4px 2px;
+    cursor          : pointer;
+}  
+#back{ 
+    background-color: #5C9BE6;
+    border          : none;
+    padding         : 10px 20px;
+    text-align      : center;
+    text-decoration : none;
+    font-size       : 16px;
+    margin          : 4px 2px;
+    cursor          : pointer; 
+    width        : 40%; 
+    margin: auto; 
+    display: flex; 
+    justify-content: center;
+    margin-top   : 20px;
+    margin-bottom: 30px;
+} 
+ 
+#back a {
+    text-decoration: none;  
+    color           : white;
+
+}
+
+span{ 
+    color: red; 
+} 
+.back a{ 
+    text-decoration: none;  
+    color           : white;
+} 
+#bacBtn{ 
+    border: none;
+    background-color: #5C9BE6;  
+    padding: 10px 8px;
+}
+.back{ 
+    margin-top: 10px;
+    float: right; 
+    width: 20%;
+}
+

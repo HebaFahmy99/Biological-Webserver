@@ -1,0 +1,117 @@
+*{ 
+    margin: 0; 
+} 
+body{ 
+    background-color: #F6F7FC;
+    display: flex;
+    justify-content: center;  
+    color: white;
+}  
+.container{   
+    margin-top:30px ;
+    background-image: url("../images/bg.jpg"); 
+    background-size: cover; 
+    background-position: center center;
+    background-color: #F6F7FC; 
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    width: 90%; 
+}  
+fieldset{ 
+    margin-top: 10px;
+}
+.parentCard h1{ 
+    text-align: center; 
+    font-size: 43px;
+}
+.parentCard{ 
+    padding: 40px 30px; 
+    /* background-color: yellow; */
+}
+.insert input, .select input, .delete input{
+    width: 99%; 
+    padding: 5px 5px; 
+    margin-bottom: 4px; 
+} 
+.btn{ 
+    display: flex; 
+    justify-content: center;
+}
+#insertBtn{ 
+    border: none; 
+    background-color: orange; 
+    padding: 10px 7px; 
+    color: white; 
+    margin: auto; 
+    width: 20%; 
+    cursor: pointer ; 
+    font-size: 18px;
+
+}  
+.signout { 
+    display: flex; 
+    justify-content: center;
+}
+.signout button{ 
+background-color: orange; 
+border: none;  
+color: white;  
+cursor: pointer ; 
+font-size: 18px;
+width: 70%; 
+margin:20px auto;
+}
+
+#selectBtn, #selectALLBtn,button{  
+    margin-left: 8px;
+    border: none; 
+    background-color: orange; 
+    padding: 10px 7px; 
+    color: white; 
+    width: 20%; 
+    cursor: pointer ; 
+    font-size: 18px;
+}
+
+/* --------------------- */ 
+
+.parentCard2{ 
+    padding: 40px 30px;  
+    margin: auto;  
+    width: 90%; 
+    /* overflow: hidden; */
+
+} 
+.parentCard2 h1{ 
+    text-align: center; 
+    color: white;
+    font-size: 43px;
+} 
+table {
+    width: 100px; 
+    height: 100%;
+    border-collapse: collapse;
+    /* overflow: hidden; */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+     margin: 20px auto; 
+     font-size: 16px;
+}
+th, td {
+    padding: 15px;
+    background-color: rgba(255, 255, 255, 0.2);
+    color: #fff;
+
+}
+th {
+    text-align: left;
+}
+thead th {
+    background-color: #55608f;
+}
+tbody tr:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+a{ 
+    text-decoration: none; 
+    color: black;
+}
